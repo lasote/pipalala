@@ -127,7 +127,9 @@ function fonts() {
 function extras() {
   return src([
     'app/*',
-    '!app/*.html'
+    '!app/*.html',
+    'CNAME',
+    'LICENSE'
   ], {
     dot: true
   }).pipe(dest('dist'));

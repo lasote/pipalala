@@ -28,6 +28,7 @@ jobs:
           node-version: '12'
           check-latest: true
       - run: npm install
+      - run: npm run build
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: GitHub Pages
         # You may pin to the exact commit or the version.
