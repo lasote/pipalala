@@ -1,0 +1,79 @@
+@import "font-awesome/scss/font-awesome.scss";
+@import "bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+
+#home {
+  /* The image used */
+  background: url("../images/background.png") no-repeat top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fdf9f5;
+}
+
+.bg-cream{
+  background-color: #fdf9f5;
+}
+
+.social-handler{
+  font-size: 0.6em;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#about {
+      margin-top: 5em;
+    margin-bottom: 5em;
+
+
+}
+
+#buy{
+  padding: 2%;
+}
+
+
+.fill {
+    min-height: 90vh;
+    height: 90%;
+}
+
+.text-book{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 3vmin;
+}
+
+.text-book h2{
+  font-size: 6vmin;
+  font-weight: 600;
+}
+
+.img-fluid{
+  max-width:60%;
+}
+
+html,body{height:100%;}
+
+.map-container-5{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-5 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
